@@ -1,13 +1,14 @@
 
 import './App.css'
-import Sidebar from './sidebar/Sidebar'
+import DlButton from './dl-mode/DlButton'
+
 
 function App() {
   
 
   return (
     <>
-      <Sidebar/>
+      <DlButton/>
     </>
   )
 }
