@@ -1,15 +1,18 @@
 
 import './App.css'
-import DlButton from './dl-mode/DlButton'
+import DlButton from './components/DlButton'
+import MainContent from './components/MainContent'
+import Sidebar from './components/Sidebar'
 
 
 function App() {
   
 
   return (
-    <>
-      <DlButton/>
-    </>
+    <div className='flex'>
+      <Sidebar/>
+      <MainContent/>
+    </div>
   )
 }
 
